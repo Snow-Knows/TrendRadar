@@ -1,0 +1,28 @@
+```yaml
+monitor:
+  name: "每日热点监测"
+  version: "1.0.0"
+
+schedule:
+  timezone: "Asia/Shanghai"
+  daily_run_time: "07:00"
+
+feishu:
+  target_user_id: "ou_6d1e7bbb6440b4067cb630a8e554b9b2"
+  message_type: "post"
+
+report:
+  domestic_top_n: 5
+  international_top_n: 3
+  topic_suggestions: 3
+
+categories:
+  - id: "tob_growth"
+    name: "ToB增长组"
+  - id: "ai_tech"
+    name: "AI科技组"
+  - id: "ceo_decision"
+    name: "CEO决策组"
+  - id: "brand_marketing"
+    name: "品牌营销组"
+```
